@@ -1,0 +1,173 @@
+@import url('variaveis.css');
+
+header {
+    background-color: Green;
+    padding: 20px;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: Green;
+    padding: 20px;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+    background-color: var(--bg-color-container);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color-body);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: left;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--bg-color-container);
+    color: var(--text-color);
+    width: 270px;
+    height: 310px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.card_paginas {
+    background-color: var(--bg-color-container);
+    color: var(--text-color);
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card_exp_prof {
+    background-color: var(--bg-color-container);
+    color: var(--text-color);
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.botao {
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: DarkGreen;
+}
+
+.foto {
+    width: 200px;
+    margin: 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+}
+
+.fotoProjeto {
+    width: 300px;
+    margin: 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+}
+
+.estilo {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .linha {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .botao {
+        width: 100%;
+        padding: 15px;
+    }
+
+    header,
+    footer {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+    .fotoProjeto {
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+}

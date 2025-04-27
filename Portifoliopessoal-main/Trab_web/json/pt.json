@@ -1,0 +1,68 @@
+{
+    "pt": {
+        "main_page": {
+            "header_title": "Bem-Vindo ao meu Site",
+            "button_change_theme": "Alterar Tema",
+            "site_description": "Esse site é um resumo da minha jornada no IFPR.",
+            "name": "Nome: Eduardo Ceciliato Santos",
+            "ra": "R.A.: 20230006307",
+            "year_of_entry": "Ano de Ingresso: 2023",
+            "grade": "Série: 3rd Year",
+            "contact_title": "Contato",
+            "card_projects": "Projetos",
+            "card_skills": "Habilidades",
+            "card_professional_experience": "Experiência Profissional",
+            "card_academic_experience": "Experiência Acadêmica",
+            "button_learn_more": "Saber Mais"
+        },
+        "projects_page": {
+            "header_title": "Projetos",
+            "science_fair": "Mini Feira de Ciências no IFPR",
+            "science_fair_desc": "Esse projeto foi feito em 2024, no qual os alunos do 2° ano de engenharia de software fizeram uma pequena feira de projetos na área da T.I.",
+            "science_fair_project_desc": "Meu Projeto era voltado ao público da 3° idade, no qual nós falariamos sobre os dispositivos eletrônicos mais usados e sobre as vantagens e desvantagens de cada um e tiramos as dúvidas do público sobre o assunto.",
+            "monitoring": "Monitoria de Cursos no Instituto Maurício Gehlen",
+            "monitoring_desc": "Esse projeto foi feito em 2024, no qual os alunos do 2° ano de engenharia de software forneceram minicursos na área da T.I no Instituto Maurício Gehlen. Meu grupo ficou responável pela monitoria durante e depois dos cursos. Resumindo, nós demos suporte aos grupos que dariam cursos nesse dia e assistência ao publico."
+        },
+        "skills_page": {
+            "header_title": "Habilidades",
+            "programming_skills_title": "Habilidades em Programação",
+            "programming_skills_description1": "Conhecimentos de nível intermediário em Python e Java",
+            "programming_skills_description2": "Conhecimentos básicos em HTML e CSS",
+            "other_skills_title": "Outras Habilidades",
+            "other_skills_description1": "Boa comunicação e organização",
+            "other_skills_description2": "Bom trabalho em equipe",
+            "other_skills_description3": "Boa administração e gestão em geral"
+        },
+        "professional_experience_page": {
+            "header_title": "Experiência Profissional",
+            "company_name": "Empresa: Master Farma",
+            "date_of_admission": "Data de Ingresso: 01/08/2022",
+            "end_date": "Data de Demissão: Não houve (ainda)",
+            "position": "Cargo: Auxiliar Administrativo",
+            "responsibilities_title": "Responsabilidades",
+            "responsibility1": "Organização e Gestão de Finanças",
+            "responsibility2": "Organização e Manutençao do Estoque",
+            "responsibility3": "Atendimento ao Cliente",
+            "responsibility4": "Entrega de produtos",
+            "responsibility5": "Limpeza",
+            "more_info_title": "Mais Dados",
+            "working_hours_weekdays": "Horários (Segunda á Sexta): 8:00 ás 18:00",
+            "working_hours_saturdays": "Horários (Sábados): 8:00 ás 12:00",
+            "phone": "Telefone: (44) 3441-1600",
+            "whatsapp": "Whatsapp: (44) 9713-7293"
+        },
+        "academic_experience_page": {
+            "header_title": "Experiência Acadêmica",
+            "school_name": "Colégio Passo a Passo",
+            "school_period": "Período: 2007 a 2022",
+            "school_courses_title": "Crusos",
+            "school_course1": "Educação Infantil",
+            "school_course2": "Ensino Fundamental 1 e 2",
+            "school_course3": "Ensino Médio",
+            "college_name": "IFPR - Campus Paranavaí",
+            "college_period": "Período: 2023 a 2026 (se Deus quiser)",
+            "college_course_title": "Curso",
+            "college_course": "Bacharelado em Engenharia de Software"
+        }
+    }
+}

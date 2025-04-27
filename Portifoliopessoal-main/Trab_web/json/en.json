@@ -1,0 +1,69 @@
+{
+    "en": {
+        "main_page": {
+            "header_title": "Welcome to My Website",
+            "button_change_theme": "Change Theme",
+            "button_change_language": "Change Language",
+            "site_description": "This site is a summary of my journey at IFPR.",
+            "name": "Name: Eduardo Ceciliato Santos",
+            "ra": "R.A.: 20230006307",
+            "year_of_entry": "Year of Entry: 2023",
+            "grade": "Grade: 3rd Year",
+            "contact_title": "Contact",
+            "card_projects": "Projects",
+            "card_skills": "Skills",
+            "card_professional_experience": "Professional Experience",
+            "card_academic_experience": "Academic Experience",
+            "button_learn_more": "Learn More"
+        },
+        "projects_page": {
+            "header_title": "Projects",
+            "science_fair": "Mini Science Fair at IFPR",
+            "science_fair_desc": "This project was made in 2024, where the 2nd-year software engineering students organized a small project fair in the IT field.",
+            "science_fair_project_desc": "My project was focused on the elderly, where we talked about the most used electronic devices and the advantages and disadvantages of each one, and answered the public's questions on the topic.",
+            "monitoring": "Course Monitoring at Instituto Maurício Gehlen",
+            "monitoring_desc": "This project was made in 2024, where the 2nd-year software engineering students provided mini-courses in IT at Instituto Maurício Gehlen. My group was responsible for the monitoring during and after the courses. In short, we provided support to the groups giving the courses and assistance to the public."
+        },
+        "skills_page": {
+            "header_title": "Skills",
+            "programming_skills_title": "Programming Skills",
+            "programming_skills_description1": "Intermediate knowledge of Python and Java",
+            "programming_skills_description2": "Basic knowledge of HTML and CSS",
+            "other_skills_title": "Other Skills",
+            "other_skills_description1": "Good communication and organization",
+            "other_skills_description2": "Teamwork skills",
+            "other_skills_description3": "Excellent management skills"
+        },
+        "professional_experience_page": {
+            "header_title": "Professional Experience",
+            "company_name": "Company: Master Farma",
+            "date_of_admission": "Date of Admission: 08/01/2022",
+            "end_date": "End Date: Not yet (still employed)",
+            "position": "Position: Administrative Assistant",
+            "responsibilities_title": "Responsibilities",
+            "responsibility1": "Finance Organization and Management",
+            "responsibility2": "Stock Organization and Maintenance",
+            "responsibility3": "Customer Service",
+            "responsibility4": "Product Delivery",
+            "responsibility5": "Cleaning",
+            "more_info_title": "More Info",
+            "working_hours_weekdays": "Working Hours (Monday to Friday): 8:00 AM to 6:00 PM",
+            "working_hours_saturdays": "Working Hours (Saturdays): 8:00 AM to 12:00 PM",
+            "phone": "Phone: (44) 3441-1600",
+            "whatsapp": "Whatsapp: (44) 9713-7293"
+        },
+        "academic_experience_page": {
+            "header_title": "Academic Experience",
+            "school_name": "Passo a Passo School",
+            "school_period": "Period: 2007 to 2022",
+            "school_courses_title": "Courses",
+            "school_course1": "Preschool",
+            "school_course2": "Elementary School (1st and 2nd Cycles)",
+            "school_course3": "High School",
+            "college_name": "IFPR - Paranavaí Campus",
+            "college_period": "Period: 2023 to 2026 (God willing)",
+            "college_course_title": "Course",
+            "college_course": "Bachelor's Degree in Software Engineering"
+        }
+    }
+}

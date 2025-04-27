@@ -1,0 +1,11 @@
+[data-theme="light"] {
+    --bg-color-body: #b6b6b6;
+    --bg-color-container: #d6d4d4;
+    --text-color: black;
+}
+
+[data-theme="dark"] {
+    --bg-color-body: #111;
+    --bg-color-container: #222;
+    --text-color: white;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/variaveis.css">
+    <script src="javascript/functions.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 data-i18n="main_page.header_title">Bem-Vindo ao meu Site</h1>
+    </header>
+    <div class="container">
+        <section>
+            <button id="btAlterarTema" onclick="alterarTema()" class="botao"
+                data-i18n="main_page.button_change_theme">Alterar Tema</button>
+            <button id="btAlterarIdioma" class="botao" onclick="alterarIdioma()">Alterar Idioma</button>
+        </section>
+        <div class="linha">
+            <h3 data-i18n="main_page.site_description">Esse site é um resumo da minha jornada no IFPR.</h3>
+        </div>
+        <div class="linha">
+            <div class="foto">
+                <img src="imagens/img-site.jpg" alt="Foto de Perfil">
+            </div>
+            <div class="body">
+                <p data-i18n="main_page.name">Nome: Eduardo Ceciliato Santos</p>
+                <p data-i18n="main_page.ra">R.A.: 20230006307</p>
+                <p data-i18n="main_page.year_of_entry">Ano de Ingresso: 2023</p>
+                <p data-i18n="main_page.grade">Série: 3° ano</p>
+            </div>
+        </div>
+        <main>
+            <section>
+                <div class="cards">
+                    <div class="card">
+                        <img src="imagens/card-projetos.jpg" alt="imagem de projetos" width="270px">
+                        <h3 data-i18n="main_page.card_projects">Projetos</h3>
+                        <button onclick="location.href='projetos.html'" class="botao"
+                            data-i18n="main_page.button_learn_more">Saber Mais</button>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/card-habilidades.jpg" alt="imagem de habilidades" width="270px"
+                            height="150px">
+                        <h3 data-i18n="main_page.card_skills">Habilidades</h3>
+                        <button onclick="location.href='habilidades.html'" class="botao"
+                            data-i18n="main_page.button_learn_more">Saber Mais</button>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/card-experiencia.jpg" alt="imagem de experiência" width="270px"
+                            height="150px">
+                        <h3 data-i18n="main_page.card_professional_experience">Experiência Profissional</h3>
+                        <button onclick="location.href='exp-prof.html'" class="botao"
+                            data-i18n="main_page.button_learn_more">Saber Mais</button>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/card-educacao.jpg" alt="imagem de educação" width="270px" height="150px">
+                        <h3 data-i18n="main_page.card_academic_experience">Experiência Acadêmica</h3>
+                        <button onclick="location.href='exp-acad.html'" class="botao"
+                            data-i18n="main_page.button_learn_more">Saber Mais</button>
+                    </div>
+                </div>
+            </section>
+            <div id="inscritos">
+            </div>
+        </main>
+        <section>
+        </section>
+        <footer>
+            <section>
+                <h4 data-i18n="main_page.contact_title">Contato</h4>
+                <div class="cards">
+                    <div class="linha">
+                        <p>GitHub: https://github.com/educeciliato</p>
+                        <p>E-mail: 20230006307@estudantes.ifpr.edu.br</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
