@@ -1,0 +1,69 @@
+{
+    "es": {
+        "main_page": {
+            "header_title": "Bienvenido a mi sitio web",
+            "button_change_theme": "Cambiar tema",
+            "button_change_language": "Cambiar idioma",
+            "site_description": "Este sitio es un resumen de mi trayectoria en el IFPR.",
+            "name": "Nombre: Eduardo Ceciliato Santos",
+            "ra": "R.A.: 20230006307",
+            "year_of_entry": "Año de ingreso: 2023",
+            "grade": "Grado: 3er Año",
+            "contact_title": "Contacto",
+            "card_projects": "Proyectos",
+            "card_skills": "Habilidades",
+            "card_professional_experience": "Experiencia profesional",
+            "card_academic_experience": "Experiencia académica",
+            "button_learn_more": "Saber más"
+        },
+        "projects_page": {
+            "header_title": "Proyectos",
+            "science_fair": "Mini Feria de Ciencias en IFPR",
+            "science_fair_desc": "Este proyecto se realizó en 2024, donde los estudiantes de segundo año de ingeniería de software organizaron una pequeña feria de proyectos en el campo de la tecnología.",
+            "science_fair_project_desc": "Mi proyecto se centró en las personas mayores, donde hablamos sobre los dispositivos electrónicos más utilizados y las ventajas y desventajas de cada uno, además de responder a las preguntas del público sobre el tema.",
+            "monitoring": "Monitoreo de cursos en el Instituto Maurício Gehlen",
+            "monitoring_desc": "Este proyecto se realizó en 2024, donde los estudiantes de segundo año de ingeniería de software ofrecieron mini-cursos de tecnología en el Instituto Maurício Gehlen. Mi grupo fue responsable del monitoreo durante y después de los cursos. En resumen, brindamos apoyo a los grupos que impartían los cursos y asistencia al público."
+        },
+        "skills_page": {
+            "header_title": "Habilidades",
+            "programming_skills_title": "Habilidades de programación",
+            "programming_skills_description1": "Conocimientos intermedios en Python y Java",
+            "programming_skills_description2": "Conocimientos básicos en HTML y CSS",
+            "other_skills_title": "Otras habilidades",
+            "other_skills_description1": "Buena comunicación y organización",
+            "other_skills_description2": "Habilidades para trabajar en equipo",
+            "other_skills_description3": "Excelentes habilidades de gestión"
+        },
+        "professional_experience_page": {
+            "header_title": "Experiencia profesional",
+            "company_name": "Empresa: Master Farma",
+            "date_of_admission": "Fecha de ingreso: 08/01/2022",
+            "end_date": "Fecha de finalización: Aún no (trabajo en curso)",
+            "position": "Puesto: Asistente administrativo",
+            "responsibilities_title": "Responsabilidades",
+            "responsibility1": "Organización y gestión de finanzas",
+            "responsibility2": "Organización y mantenimiento de inventarios",
+            "responsibility3": "Atención al cliente",
+            "responsibility4": "Entrega de productos",
+            "responsibility5": "Limpieza",
+            "more_info_title": "Más información",
+            "working_hours_weekdays": "Horario de trabajo (lunes a viernes): 8:00 AM a 6:00 PM",
+            "working_hours_saturdays": "Horario de trabajo (sábados): 8:00 AM a 12:00 PM",
+            "phone": "Teléfono: (44) 3441-1600",
+            "whatsapp": "Whatsapp: (44) 9713-7293"
+        },
+        "academic_experience_page": {
+            "header_title": "Experiencia académica",
+            "school_name": "Escuela Passo a Passo",
+            "school_period": "Periodo: 2007 a 2022",
+            "school_courses_title": "Cursos",
+            "school_course1": "Preescolar",
+            "school_course2": "Educación Primaria (1er y 2do Ciclo)",
+            "school_course3": "Educación Secundaria",
+            "college_name": "IFPR - Campus Paranavaí",
+            "college_period": "Periodo: 2023 a 2026 (si Dios quiere)",
+            "college_course_title": "Carrera",
+            "college_course": "Licenciatura en Ingeniería de Software"
+        }
+    }
+}
