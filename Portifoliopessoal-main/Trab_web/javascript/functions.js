@@ -1,3 +1,5 @@
+let idiomaAtual = localStorage.getItem("idioma") || "pt";
+
 function alterarTema() {
     const tema = document.body.getAttribute("data-theme");
     const novoTema = tema === "dark" ? "light" : "dark";
@@ -10,12 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.setAttribute("data-theme", temaSalvo);
 });
 
-let idiomaAtual = localStorage.getItem("idioma") || "pt";
-
 function alterarIdioma() {
     idiomaAtual = idiomaAtual === "pt" ? "en" : "pt";
     carregarIdioma(idiomaAtual);
     localStorage.setItem("idioma", idiomaAtual);
+    console.log("oi: ", idiomaAtual );
 }
 
 function carregarIdioma(idioma) {
@@ -28,6 +29,7 @@ function carregarIdioma(idioma) {
 }
 
 function traduzirPagina(linguagem) {
+    console.log("hi: ", linguagem )
     document.querySelectorAll("[data-i18n]").forEach(elemento => {
         const chave = elemento.getAttribute("data-i18n");
         if (linguagem[chave]) {
@@ -42,11 +44,3 @@ function traduzirPagina(linguagem) {
         }
     });
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    carregarIdioma(idiomaAtual);
-    const botaoIdioma = document.getElementById("btAlterarIdioma");
-    if (botaoIdioma) {
-        botaoIdioma.addEventListener("click", alterarIdioma);
-    }
-});
